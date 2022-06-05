@@ -1,0 +1,184 @@
+body {
+  background-image: url("../img/bg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutus-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #D5EDA3;
+  position: absolute;
+  width: 1596px;
+  height: 899px;
+  margin-left: 150px;
+}
+
+#aboutus {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 6rem;
+  text-decoration: underline;
+  color: #08341A;
+  position: relative;
+  left: 149px;
+}
+
+.description {
+  color: white;
+  font-size: 1.85rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #355E3B;
+  padding: 10px 50px 0;
+  width: 550px;
+  height: 560px;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.slogan {
+  text-align: center;
+  font-style: italic;
+}
+
+#aboutus-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+  bottom: 40px;
+  max-width: 200px;
+}
+
+.img-box-1 {
+  position: relative;
+  bottom: 20px;
+}
+
+.box1,
+.box2 {
+  background-color: #355E3B;
+  width: 481px;
+  height: 272px;
+  border-radius: 20px;
+  position: absolute;
+  left: 960px;
+  z-index: 0;
+}
+
+.box1 {
+  top: 249px;
+}
+
+.box2 {
+  top: 549px;
+}
+
+@media only screen and (max-width: 1920px) {
+  #aboutus-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #D5EDA3;
+    position: absolute;
+    width: 1250px;
+    height: 685px;
+    margin-left: 150px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-decoration: underline;
+    color: #08341A;
+    position: relative;
+    left: 149px;
+    bottom: 40px;
+  }
+
+  #logo-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo-container .sdglogo {
+    max-height: 108.11px;
+    position: relative;
+    right: 50px;
+    top: 10px;
+  }
+
+  #logo-container .logo {
+    position: relative;
+    left: 1px;
+  }
+
+  #logo-container {
+    position: relative;
+    right: 20px;
+  }
+
+  .description {
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    background-color: #355E3B;
+    padding: 10px 50px 0;
+    width: 450px;
+    height: 560px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+  }
+
+  #aboutus-img .img {
+    width: 381px;
+    height: 185px;
+    position: relative;
+    right: 50px;
+  }
+
+  #aboutus-img .logo {
+    position: relative;
+    right: 50px;
+  }
+
+  .box1,
+  .box2 {
+    background-color: #355E3B;
+    width: 381px;
+    height: 185px;
+    border-radius: 20px;
+    position: absolute;
+    left: 820px;
+    z-index: 0;
+  }
+
+  .box1 {
+    top: 235px;
+  }
+
+  .box2 {
+    top: 449px;
+  }
+}
