@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Payung Hijau - Contact Us</title>
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contactus.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <a href="index.html" class="logo-image-link"> <img id="logo-img" src="img/navlogo.png" alt="Payung Hijau logo"></a>
+    <a href="https://sdgs.un.org/goals" target="_blank"><img src="img/sdgwheel.png" alt="sdgwheel" id="sdgwheel"></a>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="aboutus.html">About Us</a> </li>
+        <li><a class="nav-link" href="joinus.html">Join Us</a> </li>
+        <li><a class="nav-link" href="donation.html">Donation</a> </li>
+        <li><a class="nav-link" href="project.html">Projects</a> </li>
+        <li><a class="nav-link" href="social.html">Social</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contactus-container">
+    <form id="form" action="" method="post">
+      <input type="hidden" name="_subject" value="New submission!">
+      <div class="wrapper">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required>
+      </div>
+      <div class="wrapper">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="wrapper">
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="12" cols="80" placeholder="We'll get back to you!" required></textarea>
+      </div>
+      <div class="wrapper-btn">
+        <button id="btn" type="button" name="button">Send email</button>
+      </div>
+
+
+    </form>
+    <div id="text">
+      <h1 id="title">Contact Us</h1>
+      <h3 id="subtitle">Just fill in the form. It's easy!</h3>
+      <p id="a"></p>
+    </div>
+    <script src="js/contactus.js"></script>
+
+  </section>
+
+
+</body>
+
+</html>

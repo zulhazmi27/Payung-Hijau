@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Payung Hijau - Payment</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/paymentmethod.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body>
+  <header id="header">
+    <a href="index.html" class="logo-image-link"> <img id="logo-img" src="img/navlogo.png" alt="Payung Hijau logo"></a>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="aboutus.html">About Us</a> </li>
+        <li><a class="nav-link" href="joinus.html">Join Us</a> </li>
+        <li><a class="nav-link" href="donation.html">Donation</a> </li>
+        <li><a class="nav-link" href="project.html">Projects</a> </li>
+        <li><a class="nav-link" href="social.html">Social</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h2 class="heading">Give life to a tree with only RM1!</h2>
+      <div id="content-wrapper">
+        <img src="img/handsontree.avif" alt="Hands together on a tree">
+        <p class="text">You can help us restore our forests by making a donation today to the Payung Hijau. Your support
+          directly contributes to Payung Hijau's effort in tree conservation.</p>
+      </div>
+      <p class="text">Become a part of <a href="#">Payung Hijau membership</a> with your donation with various perks.
+        Donation exceeding RM1000 will make you our <a href="#">Partner in Tree Conservation</a>.</p>
+    </div>
+    <div class="form-wrapper">
+      <p id="tq"></p>
+      <div id="rectangle1">
+        DONATE NOW !
+        <form id="form" action="/" method="post">
+          <div id="info">
+            <div class="wrapper-1">
+              <label for="name">Name</label><br>
+              <input id="name" type="text" required><br>
+              <input id="checkbox" name="box" type="checkbox">
+              <label for="box">
+                Donate Anonymously</label>
+            </div>
+            <br>
+            <div class="wrapper-2">
+              <label for="email">E-mail</label><br>
+              <input id="email" type="email" required>
+            </div>
+            <br>
+            <div class="wrapper-3">
+              <label for="bank">Choose your bank</label><br>
+              <select id="choice" required>
+                <option value="maybank">Maybank</option>
+                <option value="bankislam">Bank Islam</option>
+                <option value="cimb">CIMB</option>
+                <option value="muamalat">Muamalat</option>
+              </select>
+
+            </div>
+            <div id="btn">
+              <button id="submit" type="button" name="button">Submit</button>
+            </div>
+
+          </div>
+        </form>
+        <p id="addinfo">
+          *We only accept Online Banking Transaction
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/paymentmethod.js"></script>
+
+</body>
+
+</html>
