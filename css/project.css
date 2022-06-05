@@ -1,0 +1,122 @@
+body {
+  background-image: url("../img/bg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #D5EDA3;
+  position: relative;
+  margin: 0 auto;
+  width: 1596px;
+  height: 900px;
+}
+
+@media only screen and (max-width: 1920px) {
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5EDA3;
+    position: relative;
+    width: 1250px;
+    height: 685px;
+    margin-left: 150px;
+    font-size: .625em;
+  }
+
+  #box1 {
+    max-width: 700px;
+    max-height: 180px;
+    border-radius: 20px;
+    padding: 0 20px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    top: 80px;
+    border: 1px solid black;
+  }
+
+  #box2 {
+    max-width: 700px;
+    max-height: 182px;
+    border-radius: 20px;
+    padding: 0 20px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    bottom: 15px;
+    border: 1px solid black;
+  }
+
+  #box3 {
+    max-width: 700px;
+    max-height: 182px;
+    border-radius: 20px;
+    padding: 0 20px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    bottom: 10px;
+    border: 1px solid black;
+  }
+
+  #pic1 {
+    position: relative;
+    left: 380px;
+    width: 350px;
+    bottom: 80px;
+    border-radius: 20px;
+  }
+
+  #pic2 {
+    position: relative;
+    left: -380px;
+    width: 350px;
+    bottom: 150px;
+    border-radius: 20px;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .desc {
+    font-style: italic;
+  }
+
+  .name,
+  .desc {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .success {
+    position: relative;
+    right: 240px;
+    z-index: 0;
+  }
+
+  .next {
+    position: relative;
+    left: 240px;
+    z-index: 2;
+  }
+
+  .success,
+  .next {
+    background-color: #5A824C;
+    color: white;
+  }
+
+  .ongoing {
+    background-color: #8A9A5B;
+    z-index: 1;
+  }
+}
